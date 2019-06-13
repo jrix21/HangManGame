@@ -38,7 +38,7 @@ function startGame(){
 	// resetting the wrongGuesses
 	wrongGuesses = [];
 
-	startImage = document.getElementById("screenshot").src="assets/images/strawhatlogo.png";
+	startImage = document.getElementById("screenshot").src="Assets/Images/strawhatlogo.png";
 
 	// filling the blanksAndSucesses list with the appropriate number of blanks
 	for(var i=0; i<numBlanks;i++){
