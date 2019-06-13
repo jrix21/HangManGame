@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>GOThtml</title>
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Roboto" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body background="Assets/Images/onepiece.jpg">
+<div style="display:none">
+</div>
+
+	<div class="container">
+        <h1>One Piece Hangman Game</h1>
+    </div>
+
+    <!--Image Changing Area-->
+<div class=interactivecontainer>
+		<div id="imagecontainer">
+			<img id="screenshot">
+		</div>
+	
+</div>
+
+<div class="playcontainer">
+
+	<!--word box for word to be guessed-->
+	<div>
+		<div class="chancescontainer">
+			<p> You have <span id="lives"></span> chances left</p>
+		</div>
+	</div>
+	
+
+	<!--lines for guessing letters-->
+	<div>
+		<div class="guessingcontainer">
+					<p id="underlines"></p>
+					<p id="wrongletters"></p>
+					<p> Wins: <span id="wins"></span></p>
+					<p> Losses: <span id="losses"></span></p>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<script type='text/javascript' src="assets/javascript/game.js"></script>
+</body>
+</html>
