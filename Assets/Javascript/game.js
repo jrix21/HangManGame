@@ -1,10 +1,9 @@
 var gotWords= ['luffy','zoro', 'sanji','ussopp','robin','franky','brook','chopper','nami','carrot','jinbei','vivi'];
 
 
- // Creating variables to hold the number of wins, losses, and ties. They start at 0.
+ // Creating variables to hold the number of wins, losses. They start at 0.
     var wins = 0;
     var losses = 0;
-    var ties = 0;
     var numGuesses = 8;
     var wordLength = [];
     var numBlanks = 0;
